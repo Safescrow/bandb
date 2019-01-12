@@ -27,13 +27,14 @@ export default class Banner extends Component {
               src="/images/bg.jpg"
               alt="First slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>Personal and Family Financial Plans</h5>
               <p>
                 Your Brass and Books advisor will work with you to craft a
                 highly personalized financial plan with well defined, long term
                 goals
               </p>
+              <button type="button" className="btn btn-outline-secondary">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
@@ -42,67 +43,71 @@ export default class Banner extends Component {
               src="/images/bg2.jpg"
               alt="Second slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>Business Plans, Feasibility Studies and Proposals</h5>
               <p>
                 Brass and Books Financial Services creates business plans,
                 feasibility studies and business proposals for any purpose in
                 any industry.
               </p>
+              <button type="button" className="btn btn-outline-secondary">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="/images/bg3"
+              src="/images/bg3.jpg"
               alt="Third slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>Capital Raising</h5>
               <p>
                 We assist startups, middle-market and emerging growth companies
                 in accessing the dynamic private capital markets for equity and
                 debt financing.
               </p>
+              <button type="button" className="btn btn-outline-secondary">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="/images/bg3"
+              src="/images/bg3.jpg"
               alt="Fourth slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>Virtual Accounting</h5>
               <p>
                 Brass and Books Virtual Accounting Services exists to serve
                 entrepreneurs with an empowering finance division so they can
                 focus on creating value for their customers.
               </p>
+              <button type="button" className="btn btn-outline-secondary">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="/images/bg3"
+              src="/images/bg3.jpg"
               alt="Fifth slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>Business Financial Analysis and Modeling</h5>
               <p>
                 We provide financial analysis and modeling services to already
                 existing businesses to help understand your business, and
                 forecast it's operations and identify critical issues.
               </p>
+              <button type="button" className="btn btn-outline-secondary">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
               className="d-block w-100"
-              src="/images/bg3"
+              src="/images/bg3.jpg"
               alt="Sixth slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>Business and Investment Management</h5>
               <p>
                 Brass and Books works with you to professionally manage your
@@ -110,6 +115,7 @@ export default class Banner extends Component {
                 as shares, bonds or real estate, and other businesses in order
                 to meet your specific investment goals.
               </p>
+              <button type="button" className="btn btn-outline-secondary">Learn More</button>
             </div>
           </div>
         </div>
